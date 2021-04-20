@@ -1,0 +1,39 @@
+body{
+    margin: 2vh 30vw ;
+    background-color: rgb(238, 238, 238);
+}
+h1,h2{
+    color: rgb(29, 29, 88);
+}
+.profile-image{
+    border-radius: 50%;
+}
+.happyImage{
+    width: 200px;
+    height: 200px;
+    background-image: url('happy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sadImage{
+    width: 200px;
+    height: 200px;
+    background-image: url('sad.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.inline-block{
+    display: inline-block;
+}
+
+ol>ul li{
+   list-style-type: none;
+}
+ol>li{
+    color: red;
+    font-weight: bold; 
+}

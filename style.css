@@ -1,6 +1,7 @@
 body{
-    margin: 2vh 30vw ;
-    background-color: rgb(238, 238, 238);
+    margin-left: 20px;
+    background-color: rgb(108 124 130);
+    color: white;
 }
 h1,h2{
     color: rgb(29, 29, 88);
@@ -33,7 +34,10 @@ h1,h2{
 ol>ul li{
    list-style-type: none;
 }
-ol>li{
-    color: red;
+ol>ul>li{
+    color: yellow;
     font-weight: bold; 
+}
+.movie-attribute{
+    color: white;
 }
